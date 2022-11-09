@@ -54,7 +54,7 @@ const Banner = () => {
       <Container>
         <Box sx={styles.grid}>
           <Box as='form' sx={styles.domainCard} onSubmit={handleSubmit}>
-            <Heading>Built your business with a website</Heading>
+            <Heading>Build your business with a website</Heading>
             <Flex sx={styles.inputGroup}>
               <Label htmlFor='domainName' variant='styles.srOnly'>
                 Your Domain Name
