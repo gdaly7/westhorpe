@@ -27,6 +27,9 @@ export default function Footer() {
               <Text as='p' sx={styles.copyright}>
                 Copyright by {new Date().getFullYear()} RedQ, Inc
               </Text>
+                <Text as='p' sx={styles.copyright}>
+                Web Design By <a href="https://pathmaker.dev">Pathmaker</a>
+              </Text>
             </Box>
             {menuItems.map(({ id, title, items }) => (
               <Widget key={id} title={title} items={items} />
