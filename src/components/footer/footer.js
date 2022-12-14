@@ -25,7 +25,7 @@ export default function Footer() {
                 <Link path='#!'>Privacy</Link>
               </Box>
               <Text as='p' sx={styles.copyright}>
-                Copyright by {new Date().getFullYear()} Westhorpe Web, Web Design By <a href="https://pathmaker.dev">Pathmaker</a>
+                Copyright by {new Date().getFullYear()} Westhorpe Web
 
               </Text>
                 <Text as='p' sx={styles.copyright}>
